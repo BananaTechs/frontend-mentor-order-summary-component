@@ -18,7 +18,8 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 90%;
+    font-weight: 500;
     line-height: 1.7rem;
 }
 
@@ -45,15 +46,14 @@ body {
 }
 
 .container {
-    max-width: 500px; 
+    max-width: 475px; 
     margin: 0 auto; 
 }
 
 .card {
     margin: 70px auto;
     background-color: white;
-    max-width: 80%;
-    /* max-height: 500px; */
+    max-width: 85%;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
@@ -70,9 +70,9 @@ body {
 
 .card-txt h1 {
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--darkBlue);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .card-pricing {
@@ -103,7 +103,7 @@ body {
 }
 
 .card-pricing a {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 900;
     color: var(--brightBlue);
 }
@@ -127,6 +127,7 @@ body {
     background-color: var(--brightBlue);
     color: white;
     margin-bottom: 20px;
+    box-shadow: 0 20px 20px hsl(240, 77%, 67%, 30%);
 }
 
 .btn-payment:hover {
@@ -134,6 +135,25 @@ body {
 }
 
 .btn-cancel {
-    background-color: inherit;
+    background-color: hsl(0, 100%, 100%, 0%);
     color: var(--desaturatedBlue);
+}
+
+.btn-cancel:hover {
+    color: var(--darkBlue);
+}
+
+.attribution {
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: var(--hoverLilac);
 }
